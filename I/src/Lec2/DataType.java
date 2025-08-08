@@ -20,6 +20,8 @@ public class DataType {
 //		long lg=it;
 		long lng=54;
 		byte byt=(byte)lng;
+		float ft=10.45f;
+		long lls=(long) ft;
 //		System.out.println(lng);
 		System.out.println(byt);
 //		System.out.println("byte value is "+b);
