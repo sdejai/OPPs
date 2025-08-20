@@ -6,7 +6,12 @@ public class Array2D {
 
 	public static void main(String[] args) {
 		int arr[][] = { { 1, 2, 3 }, { 4, 6, 8 }, { 12, 54, 76 } };
-		Scanner sc = new Scanner(System.in);
+		for (int r = 0; r < arr.length; r++) {
+			for (int c = 0; c <arr[0].length; c++) {
+				System.out.print(arr[r][c]+" ");
+			}
+			System.out.println();
+		}Scanner sc = new Scanner(System.in);
 		int row = sc.nextInt();
 		int col = sc.nextInt();
 		int arr1[][] = new int[row][col];
