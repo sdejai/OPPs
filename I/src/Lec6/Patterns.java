@@ -1,12 +1,14 @@
-package Lec7;
+package Lec6;
 
 import java.util.Scanner;
+
 public class Patterns {
+
 	public static void main(String[] args) {
-		Scanner sc  = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int n=sc.nextInt();
-		for(int row=1;row<=n;row++) {
-			for(int col=1;col<=n-row+1;col++) {
+		for(int row=0;row<n;row++) {
+			for(int col=0;col<=row;col++) {
 				System.out.print("* ");
 			}
 			System.out.println();

@@ -1,4 +1,4 @@
-package Lec9;
+package Lec10;
 
 public class LocalGlobalScope {
 //	var name;

@@ -1,4 +1,4 @@
-package Lec4;
+package Lec6;
 import java.util.Scanner;
 
 public class ProductOfTwoNumbers {
