@@ -4,7 +4,7 @@ public class FiboSeries {
 	public static void fibo(int nOrder) {
 		int num1=0;
 		int num2=1;
-		for(int i=1;i<=nOrder;i++) {
+		for(int i=0;i<=nOrder;i++) {
 			System.out.print(num1+" ");
 			int sum=num1+num2;
 			num1=num2;
@@ -13,7 +13,7 @@ public class FiboSeries {
 		
 	}
 	public static void main(String[] args) {
-		int nOreder=3;
+		int nOreder=5;
 		fibo(nOreder);
 	}
 
