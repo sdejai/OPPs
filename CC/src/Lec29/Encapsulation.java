@@ -1,4 +1,4 @@
-package Lec28;
+package Lec29;
 
 public class Encapsulation {
 	//using private (access modifiers) 
@@ -23,5 +23,20 @@ public class Encapsulation {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public int getRollNum() {
+		return rollNum;
+	}
 	
+	public String getAddress() {
+		return address;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
 }
