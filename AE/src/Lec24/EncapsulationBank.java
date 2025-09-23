@@ -6,31 +6,16 @@ public class EncapsulationBank {
 	private String accHolderName;
 	private long amount;
 
-	// setter
-	public void setAccountNum(long accountNum) {
+	public EncapsulationBank() {
+		
+	}
+	
+	public EncapsulationBank(long accountNum, String accHolderName, long amount) {
 		this.accountNum = accountNum;
-	}
-
-	public void setAccountHolderName(String accountHolderName) {
-		this.accHolderName = accountHolderName;
-	}
-
-	public void setAmount(long amount) {
+		this.accHolderName = accHolderName;
 		this.amount = amount;
 	}
 
-	// getter
-	public long getAccountNum() {
-		return accountNum;
-	}
-
-	public String getAccountHolderName() {
-		return accHolderName;
-	}
-
-	public long getAmount() {
-		return amount;
-	}
 
 	public void display() {
 		System.out.println("deatils-->" + accHolderName + " " + accountNum + " " + amount);

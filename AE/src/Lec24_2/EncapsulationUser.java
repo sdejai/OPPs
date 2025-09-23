@@ -1,4 +1,4 @@
-package Lec24;
+package Lec24_2;
 
 public class EncapsulationUser {
 
@@ -8,7 +8,11 @@ public class EncapsulationUser {
 //		user1.accHolderName="Dev";
 //		user1.accountNum=23567;
 //		user1.amount=23578876;
+		user1.setAccountNum(12345);
+		user1.setAccountHolderName("Dev");
+		user1.setAmount(34587);
 		user1.display();
+		System.out.println(user1.getAccountHolderName());
 	}
 
 }
