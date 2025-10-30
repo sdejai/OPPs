@@ -18,5 +18,8 @@ public class Emplyee extends Person {
 		this.salary = salary;
 		this.empMail = empMail;
 	}
-
+	public void display() {
+//		super.display();
+		System.out.println(empId+" "+deg+" "+salary+" "+empMail+" "+getName()+" "+getAge()+" "+getAddress()+" "+getMobileNumber() );
+	}
 }
