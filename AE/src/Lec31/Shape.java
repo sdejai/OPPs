@@ -1,8 +1,6 @@
 package Lec31;
 
-public class Shape {
+public abstract class Shape {
 	
-	public void area() {
-		System.out.println("area of shape!");
-	}
+	public abstract void area();
 }

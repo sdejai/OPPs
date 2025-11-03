@@ -1,15 +1,28 @@
 package Lec31;
 
 public abstract class Fan {
-	
-	//abstract method
+	String brand;
+
+	public Fan() {
+
+	}
+
+	public Fan(String brand) {
+		this.brand = brand;
+	}
+
+	// abstract method
 	public abstract void on();
+
 	public abstract void off();
+
 	public abstract void speedInc();
+
 	public abstract void speedDec();
-	
-	//method
+
+	// method
 	public void display() {
 		System.out.println("Fan class");
 	}
+
 }

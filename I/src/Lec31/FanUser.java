@@ -6,5 +6,8 @@ public class FanUser {
 		objHav.on();
 		AtomBerge objAtom = new AtomBerge();
 		objAtom.speedInc();
+		
+//		We can not create object of Abstract class
+//		Fan obj =new Fan();
 	}
 }

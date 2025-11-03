@@ -6,11 +6,5 @@ public class CalculateArea {
 		objCir.area();
 		Rectangle objRec = new Rectangle(3, 2);
 		objRec.area();
-		Shape obj2 = new Shape();
-		obj2.area();
-		Shape obj = new Circle(3.1f);
-		obj.area();
-		Shape obj1 = new Rectangle(12, 3);
-		obj1.area();
 	}
 }
