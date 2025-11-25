@@ -19,6 +19,9 @@ public class MapHashMap {
 		for(Map.Entry<Integer, String> etry:mp.entrySet()) {
 			System.out.print(etry+"--->");
 		}
+		System.out.println();
+		System.out.println(mp.containsKey(5));
+		System.out.println(mp.containsValue("Vikas"));
 	}
 
 }
